@@ -4,19 +4,19 @@
       <a href="https://twitter.com/dolphinal" target="_blank" class="mr-2 hover:text-accent">
         <icon prefix="fab" icon="twitter" class="h-7" />
       </a>
-      <a href="https://github.com/Dolphinal" target="_blank" class="mr-2 hover:text-accent">
+      <a href="https://github.com/drazzardaq/dolphinal" target="_blank" class="mr-2 hover:text-accent">
         <icon prefix="fab" icon="github" class="h-7" />
       </a>
       <!-- <a href="#" target="_blank" class="hover:text-accent">
         <icon prefix="fas" icon="book" class="h-7" />
       </a> -->
     </div>
-    <!-- <a href="https://coingecko.com" target="_blank" class="flex text-xs hover:text-accent items-center justify-center mx-auto">
+    <a href="https://coingecko.com" target="_blank" class="flex text-xs hover:text-accent items-center justify-center mx-auto">
       <p>Live Token Price: $0.00001</p>
       <a href="https://coingecko.com/" target="_blank" class="ml-3">
         <img src="@/assets/logos/coingecko.png" alt="CoinGecko Logo" title="CoinGecko" class="h-7">
       </a>
-    </a> -->
+    </a>
     <div class="hidden xl:flex items-center mx-auto cursor-pointer" @click="addToken">
       <img src="@/assets/logos/dolphinal.png" alt="DOL Token" title="DOL" class="mr-2 h-8">
       <p class="font-bold text-accent">DOL</p>
