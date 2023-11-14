@@ -1,0 +1,128 @@
+diff --git a/node_modules/@metamask/logo/fox.json b/node_modules/@metamask/logo/fox.json
+index b1c27f0..4f75512 100644
+--- a/node_modules/@metamask/logo/fox.json
++++ b/node_modules/@metamask/logo/fox.json
+@@ -121,14 +121,16 @@
+         [54, 53, 61],
+         [2, 1, 4],
+         [55, 59, 57]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+-      "color": [36, 51, 67],
++      "color": [72, 102, 134],
+       "faces": [
+         [11, 12, 13],
+         [64, 65, 66]
+-      ]
++      ],
++      "name": "eyes"
+     },
+     {
+       "color": [228, 116, 36],
+@@ -138,7 +140,8 @@
+         [17, 12, 18],
+         [41, 64, 37],
+         [67, 68, 66]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [192, 172, 157],
+@@ -169,7 +172,8 @@
+         [28, 74, 51],
+         [74, 27, 72],
+         [28, 23, 19]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [214, 194, 178],
+@@ -178,7 +182,8 @@
+         [24, 31, 21],
+         [69, 71, 70],
+         [71, 69, 75]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [228, 119, 25],
+@@ -194,7 +199,8 @@
+         [40, 59, 58],
+         [71, 76, 77],
+         [77, 78, 71]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [205, 98, 0],
+@@ -207,7 +213,8 @@
+         [40, 67, 66],
+         [66, 65, 40],
+         [65, 64, 40]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [0, 0, 0],
+@@ -226,7 +233,8 @@
+         [39, 36, 38],
+         [39, 80, 26],
+         [26, 22, 39]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [247, 132, 25],
+@@ -253,7 +261,8 @@
+         [37, 15, 14],
+         [5, 59, 40],
+         [40, 16, 5]
+-      ]
++      ],
++      "mask": "everything-but-eyes-mask"
+     },
+     {
+       "color": [225, 119, 25],
+@@ -316,7 +325,32 @@
+         [85, 46, 47],
+         [48, 30, 52],
+         [52, 87, 48]
++      ],
++      "mask": "everything-but-eyes-mask"
++    }
++  ],
++  "gradients": {
++    "mask-gradient": {
++      "gradientUnits": "userSpaceOnUse",
++      "type": "linear",
++      "x1": "50%",
++      "x2": "50%",
++      "y1": "150%",
++      "y2": "0%",
++      "stops": [
++        {
++          "stop-color": "#FFFFFF"
++        },
++        {
++          "offset": "1",
++          "stop-color": "#000000"
++        }
+       ]
+     }
+-  ]
++  },
++  "masks": {
++    "everything-but-eyes-mask": {
++      "color": "url('#mask-gradient')"
++    }
++  }
+ }

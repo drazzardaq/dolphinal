@@ -1,0 +1,15 @@
+.button {
+  @apply flex items-center justify-center shadow-lg shadow-slate-900/10 rounded-md w-40 h-12 px-4 font-bold text-white text-xs uppercase outline-0 border-0 cursor-pointer;
+}
+
+.button[disabled] {
+  @apply from-gray-200 to-gray-300 text-gray-400 cursor-not-allowed;
+}
+
+.accent-button {
+  @apply from-accent-100 to-accent-200;
+}
+
+.button[disabled] > img {
+  @apply saturate-0;
+}

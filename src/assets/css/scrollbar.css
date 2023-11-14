@@ -1,0 +1,20 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent-200;
+}
+
+html {
+  scrollbar-width: thin;
+}
